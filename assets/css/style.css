@@ -1,0 +1,309 @@
+:root {
+  --primary: #1abc9c;
+  --secondary: #34495e;
+  --accent: #f39c12;
+  --text: #f4f4f4;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--text);
+  color: var(--secondary);
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.home_section {
+  width: 100vw;
+  height: 100vh;
+}
+
+.home_section .home-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home_section .home-container .home-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  flex-direction: column;
+  margin: 1rem;
+}
+.home_section .home-container .home-left h1 a {
+  color: var(--secondary);
+  font-size: 3.5rem;
+  text-decoration: none;
+}
+
+.home_section .home-container .home-left h2 {
+  color: var(--primary);
+  font-size: 3rem;
+}
+
+.home_section .home-container .home-left p span {
+  color: var(--primary);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.home_section .home-container .home-right {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  background-image: url("../img/code-purpose-of-life.gif");
+}
+
+.home_section .home-container .home-right img {
+  width: 20rem;
+  height: 20rem;
+  background-color: var(--text);
+  border-radius: 8px;
+  margin-left: -20%;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.home_social_section a {
+  text-decoration: none;
+}
+
+.home_social_section i {
+  margin-right: 1rem;
+  color: var(--secondary);
+}
+
+
+
+.home_social_section i:hover {
+  margin-right: 1rem;
+  color: var(--primary);
+}
+
+.about-section {
+  width: 100vw;
+  background-color: var(--secondary);
+  color: var(--text);
+  padding: 3rem 5rem 3rem 5rem;
+}
+
+.about-section strong {
+  color: var(--primary);
+}
+.about-section .title {
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+.about-section .about_ul {
+  padding-left: 4rem;
+}
+
+.about-section .more-about {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.project_section {
+  width: auto;
+  margin: 0 5rem;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project_section .project {
+  background-color: #ffffff;
+  align-self: stretch;
+  display: flex;
+  align-items: start;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.project_section .project .project_img_container {
+  padding-right: 1rem;
+}
+
+.project_section .project img {
+  border-radius: 8px;
+}
+
+.contact_section {
+  height: 30vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact_section button {
+  background-color: var(--primary);
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact_section button:hover {
+  background-color: var(--secondary);
+}
+
+footer {
+  height: 30vh;
+  width: 100vw;
+  background-color: var(--secondary);
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home_social_section_footer {
+  margin-top: 2rem;
+}
+
+.home_social_section_footer a {
+  text-decoration: none;
+}
+
+.home_social_section_footer i {
+  margin-right: 1rem;
+  color: var(--primary);
+}
+
+.home_social_section_footer i:hover {
+  margin-right: 1rem;
+  color: var(--text);
+}
