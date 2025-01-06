@@ -30,6 +30,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
     <title>Clebson Ferreira - Dev</title>
   </head>
   <body>
@@ -69,10 +70,18 @@
             <i class="fa-brands fa-whatsapp fa-2xl"></i>
           </a>
         </div>
+        <div class="row align-self-center mt-3">
+          <button class="col offer-button me-1" onclick="window.location.href='#home'">
+            Vamos trabalhar juntos?
+          </button>
+          <button class="col offer-button" onclick="window.location.href='#offer'">
+            O que posso te oferecer
+          </button>
+        </div>
       </section>
       <section class="right_section">
-        <div id="home" class="home-right"></div>
-        <div class="about-right">
+        <div id="home" class="home-right d-none d-md-block"></div>
+        <div id="about" class="about-right">
           <h1 class="title poppins-bold-italic">&lt;Sobre Mim \&gt;</h1>
           <p>
             Sou <strong>Clebson Ferreira</strong>, Engenheiro de Software
@@ -114,7 +123,55 @@
             >
           </p>
         </div>
-        <div class="skills-right">
+        <div id="offer" class="offer-right">
+          <h2 class="text-center poppins-bold-italic mb-5">
+            &lt;O que posso te oferecer \&gt;
+          </h2>
+          <div class="row mb-3">
+            <div class="col-md-6 col-12 mb-3">
+              <i class="fa-solid fa-code fa-3x"></i>
+              <h3 class="poppins-bold-italic">Desenvolvimento de Software</h3>
+              <p>
+                Desenvolvimento de aplicações web e mobile, desde a concepção
+                até a entrega. Utilizando tecnologias modernas e boas práticas
+                de programação, para garantir a qualidade e a eficiência do
+                produto final.
+              </p>
+            </div>
+            <div class="col-md-6 col-12 mb-3">
+              <i class="fa-solid fa-cogs fa-3x"></i>
+              <h3 class="poppins-bold-italic">Arquitetura de Software</h3>
+              <p>
+                Desenho e implementação de arquiteturas escaláveis e modulares,
+                utilizando padrões de projeto e boas práticas de
+                desenvolvimento. Garantindo a manutenibilidade e a evolução
+                contínua do sistema.
+              </p>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md-6 col-12 mb-3">
+              <i class="fa-solid fa-laptop-code fa-3x"></i>
+              <h3 class="poppins-bold-italic">Consultoria em TI</h3>
+              <p>
+                Consultoria especializada em tecnologia da informação, para
+                identificar oportunidades de melhoria e otimização de processos.
+                Ajudando a sua empresa a alcançar seus objetivos de negócio.
+              </p>
+            </div>
+            <div class="col-md-6 col-12 mb-3">
+              <i class="fa-solid fa-rocket fa-3x"></i>
+              <h3 class="poppins-bold-italic">Transformação Digital</h3>
+              <p>
+                Acelere a transformação digital da sua empresa, com soluções
+                inovadoras e eficientes. Utilizando tecnologias modernas e
+                estratégias ágeis, para impulsionar o crescimento e a
+                competitividade.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="skills-right">
           <h3 class="text-center poppins-bold-italic mb-3">
             &lt;Tecnologias \&gt;
           </h3>
@@ -127,7 +184,7 @@
             <i class="fa-brands fa-php fa-custom align-self-end"></i>
             <i class="fa-brands fa-node fa-custom align-self-start"></i>
           </div>
-        </div>
+        </div> -->
         <div class="project-right">
           <h3 class="text-center poppins-bold-italic mb-3">
             &lt;Experiências \&gt;
@@ -232,6 +289,26 @@
             Enviar E-mail
           </button>
         </div>
+        <footer class="poppins-semibold">
+          <p>&copy; 2024 Clebson Ferreira. Todos os direitos reservados.</p>
+          <div class="home_social_section_footer">
+            <a
+              href="https://br.linkedin.com/in/clebson-ferreira-4a7996a7"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin fa-2xl"></i>
+            </a>
+            <a href="https://github.com/ClebsonFerreira" target="_blank">
+              <i class="fa-brands fa-github fa-2xl"></i>
+            </a>
+            <a
+              href="https://wa.me/351910928070?text=ola%gostaria%de%uma%informacao"
+              target="_blank"
+            >
+              <i class="fa-brands fa-whatsapp fa-2xl"></i>
+            </a>
+          </div>
+        </footer>
       </section>
     </main>
     <script
